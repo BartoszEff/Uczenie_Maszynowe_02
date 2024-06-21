@@ -7,8 +7,8 @@ from PIL import Image as PImage
 from sklearn.metrics import accuracy_score, mean_squared_error, precision_recall_curve
 
 # Wczytywanie danych
-train_data = pd.read_csv("C:\\Users\\Piotr\\Desktop\\Uczenie_Maszynowe_02\\train.csv")
-test_data = pd.read_csv("C:\\Users\\Piotr\\Desktop\\Uczenie_Maszynowe_02\\test.csv")
+train_data = pd.read_csv("C:\\Users\\tomas\\OneDrive\\Pulpit\\Drzewa_decyzyjne\\train.csv")
+test_data = pd.read_csv("C:\\Users\\tomas\\OneDrive\\Pulpit\\Drzewa_decyzyjne\\test.csv")
 
 # Przygotowanie danych
 test_names = test_data[['Name']].copy()
